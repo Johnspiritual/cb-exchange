@@ -56,7 +56,7 @@ const CTASection = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/2348101229792?text=Hello%20CB%20Exchange,%20I%20want%20to%20start%20importing%20from%20Vietnam)"
+                href="https://wa.me/2348101229792?text=Hello%20CB%20Exchange,%20I%20want%20to%20start%20importing%20from%20Vietnam"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-primary-700 bg-white rounded-xl hover:bg-gray-100 transition-all duration-300 shadow-xl hover:shadow-2xl hover:-translate-y-0.5"
