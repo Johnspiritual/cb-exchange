@@ -55,7 +55,7 @@ const Hero = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
-                href="[wa.me](https://wa.me/2348101229792?text=Hello%20CB%20Exchange,%20I%20want%20to%20start%20importing%20from%20Vietnam)"
+                href="https://wa.me/2348101229792?text=Hello%20CB%20Exchange,%20I%20want%20to%20start%20importing%20from%20Vietnam"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-whatsapp text-lg px-8 py-4"
