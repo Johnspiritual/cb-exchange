@@ -18,10 +18,10 @@ const Footer = () => {
               </div>
               <div>
                 <span className="text-xl font-bold">CB Exchange</span>
-                <span className="block text-xs text-primary-300">Powered by Cosbridge Nig Ltd</span>
+                <span className="block text-xs text-primary-900">Powered by Cosbridge Nig Ltd</span>
               </div>
             </div>
-            <p className="text-primary-200/70 leading-relaxed">
+            <p className="text-primary-200 leading-relaxed">
               Your trusted partner for cargo shipping, supplier sourcing, and payment services from Vietnam to Africa.
             </p>
             <div className="flex gap-4">
@@ -48,7 +48,7 @@ const Footer = () => {
                 { label: 'Contact Us', href: '/contact' },
               ].map((link, index) => (
                 <li key={index}>
-                  <Link href={link.href} className="text-primary-200/70 hover:text-white transition-colors">
+                  <Link href={link.href} className="text-primary-200 hover:text-white transition-colors">
                     {link.label}
                   </Link>
                 </li>
@@ -68,7 +68,7 @@ const Footer = () => {
                 'Customs Clearance',
               ].map((service, index) => (
                 <li key={index}>
-                  <span className="text-primary-200/70">{service}</span>
+                  <span className="text-primary-200">{service}</span>
                 </li>
               ))}
             </ul>
@@ -80,11 +80,11 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-accent-400 flex-shrink-0 mt-0.5" />
-                <span className="text-primary-200/70">Lagos, Nigeria & Ho Chi Minh, Vietnam</span>
+                <span className="text-primary-200">Lagos, Nigeria & Ho Chi Minh, Vietnam</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-accent-400 flex-shrink-0" />
-                <div className="text-primary-200/70">
+                <div className="text-primary-200">
                   <a href="tel:+2348101229792" className="hover:text-white transition-colors block">+234 810 122 9792</a>
                   <a href="tel:+84776273915" className="hover:text-white transition-colors block">+84 776 273 915</a>
                 </div>
@@ -113,12 +113,12 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-primary-200/60 text-sm">
+            <p className="text-primary-200 text-sm">
               © {currentYear} CB Exchange (Cosbridge Nig Ltd). All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
-              <a href="#" className="text-primary-200/60 hover:text-white transition-colors">Privacy Policy</a>
-              <a href="#" className="text-primary-200/60 hover:text-white transition-colors">Terms of Service</a>
+              <a href="#" className="text-primary-200 hover:text-white transition-colors">Privacy Policy</a>
+              <a href="#" className="text-primary-200 hover:text-white transition-colors">Terms of Service</a>
             </div>
           </div>
         </div>
