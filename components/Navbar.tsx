@@ -86,7 +86,7 @@ const Navbar = () => {
                 </Link>
               ))}
               <a
-                href="[wa.me](https://wa.me/2348101229792?text=Hello%20CB%20Exchange,%20I%20want%20to%20inquire%20about%20your%20services)"
+                href="https://wa.me/2348101229792?text=Hello%20CB%20Exchange,%20I%20want%20to%20inquire%20about%20your%20services"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-whatsapp w-full mt-4"
